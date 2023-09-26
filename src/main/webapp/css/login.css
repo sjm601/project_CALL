@@ -1,0 +1,35 @@
+/* Login CSS */
+form div {
+  line-height: 2;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  padding-left: 30px;
+  width: 380px;
+  height: 45px;
+}
+
+form div span {
+  pointer-events: none;
+  top: 10px;
+  left: 6px;
+}
+
+form div.line::before {
+  margin: auto;
+  margin-right: 20px;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+form div.line::after {
+  margin: auto;
+  margin-left: 20px;
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}

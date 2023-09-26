@@ -1,0 +1,60 @@
+/* SignUp CSS */
+form {
+  width: 380px;
+}
+
+form div span {
+  top: 10px;
+  left: 6px;
+}
+
+.input-group input[type="radio"] {
+  display: none;
+  height: 24px;
+  width: 90px;
+}
+
+.input-group input[type="radio"] + label {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #333;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 400;
+  background-color: transparent;
+  color: #595959;
+  font-size: 15px;
+}
+
+.input-group input[type="radio"]:checked + label {
+  background-color: rgb(79, 79, 79);
+  border: white;
+  font-weight: bolder;
+  color: white;
+  box-shadow: 0 0 7px rgba(194, 219, 254, 1.0);
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .form-control {
+  padding-left: 30px;
+}
+
+form .form-control,
+form .btn {
+  height: 45px;
+}
+
+form .input-group .btn {
+  width: 50%;
+}
+
+form .form-check {
+  margin-bottom: 10px;
+}
+
+form div button {
+  width: 100%;
+}

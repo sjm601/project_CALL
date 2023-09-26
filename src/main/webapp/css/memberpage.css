@@ -1,0 +1,22 @@
+/* 페이지 스타일 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.pagination .page-link {
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.page-icon {
+  font-size: 14px;
+}

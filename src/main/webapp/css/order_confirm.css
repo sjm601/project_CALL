@@ -1,0 +1,72 @@
+.order-confirms {
+	min-height: 650px;
+}
+
+.order-confirm img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.order-confirm .pkind {
+	color: #5E5E5E;
+}
+
+.order-confirm .pname {
+	color: #0A0A0A;
+}
+
+.order-confirm .price {
+	color: #171717;
+}
+
+.order-confirm .m_hr {
+	border-bottom-color: #000000 !important;
+}
+
+.order-confirm .c_hr {
+	border-bottom-color: #5B5B5B !important;
+}
+
+.order-confirm .confirmPrice {
+	width : 300px;
+	text-align : right;
+}
+
+.star {
+	font-size: 35px;
+}
+
+.star-rating {
+	display: flex;
+	flex-direction: row-reverse;
+	font-size: 5rem;
+	line-height: 5rem;
+	justify-content: space-around;
+	padding: 0 0.2em;
+	text-align: center;
+	width: 5em;
+}
+
+.star-rating input {
+	display: none;
+}
+
+.star-rating label {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1.3px;
+	-webkit-text-stroke-color: #060606;
+	cursor: pointer;
+}
+
+.star-rating :checked ~ label {
+	-webkit-text-fill-color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+	-webkit-text-fill-color: #fff58c;
+}
+
+.form-control {
+	height: 180px;
+}

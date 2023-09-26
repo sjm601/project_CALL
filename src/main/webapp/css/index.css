@@ -1,0 +1,33 @@
+/* Index CSS */
+section img.main-image,
+section div.pre-collection,
+section div.new-product,
+section div.youtube,
+section .bottom-menu {
+  margin-bottom: 100px;
+}
+
+section div h2 {
+  font-weight: 700;
+}
+
+section div.new-product li img {
+  width: 100%;
+  height: 350px;
+}
+
+section div iframe {
+  width: 100%;
+  height:600px;
+}
+
+section .bottom-menu img {
+  width: 100%;
+  height: 600px;
+}
+
+section .bottom-menu div p {
+  color: whitesmoke;
+  right: 0;
+  bottom: 0;
+}

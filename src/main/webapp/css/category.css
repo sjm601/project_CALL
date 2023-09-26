@@ -1,0 +1,14 @@
+/* Category CSS */
+section img.main-image,
+section div.banner,
+section .product-container {
+  margin-bottom: 100px;
+}
+
+section div.banner h2 {
+  font-weight: 700;
+}
+
+section div.product img {
+  width:100%;
+}

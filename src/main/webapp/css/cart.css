@@ -1,0 +1,62 @@
+/* Cart CSS */
+.carts{
+    min-height:700px;
+}
+
+.cart img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cart .pkind {
+    color: #5E5E5E;
+}
+
+.cart .pname {
+    color: #0A0A0A;
+}
+
+.cart .price {
+    color: #171717;
+}
+
+.cart .m_hr {
+    border-bottom-color: #000000 !important;
+}
+
+.cart .c_hr {
+    border-bottom-color: #5B5B5B !important;
+}
+
+.cart input.cnt-count {
+    width: 40px !important;
+    box-shadow: none !important;
+    border-color: #6c757d !important;
+    border-top-color: #ced4da !important;
+    border-bottom-color: #ced4da !important;
+}
+
+.cart a.cnt {
+    width: 31px;
+}
+
+.cart .priceDiv {
+    width: 220px;
+    text-align: right;
+}
+
+
+.cart .sub_text {
+	padding: 10px 10px;
+	margin-top:3px;
+	background-color: #444444;
+	border-radius: 5px;
+	color: #ffffff;
+	position: absolute;
+	opacity: 0;
+	transition: all ease 0.5s;
+}
+
+.btn:hover+.sub_text {
+	 opacity: 1;
+}

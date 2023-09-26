@@ -1,0 +1,75 @@
+section div.address-info {
+  border-bottom: 1px solid black;
+}
+
+section div.address-info-header,
+section div.payment-info-header {
+  border-bottom: 2px solid black;
+}
+
+section div.address-info p,
+section div.payment-info p {
+  margin: auto 0;
+  width: 15%;
+  min-width: 130px;
+}
+
+section div.address-info input {
+  line-height: 2;
+  min-width: 300px;
+}
+
+section div.address-info input.short {
+  width: 25%;
+}
+
+section div.address-info input.long {
+  width: 50%;
+}
+
+section div.payment-info div.d-flex {
+  padding: 10px 10px 10px 20px;
+}
+
+section div.d-flex button {
+  width: 25%;
+  min-width: 150px;
+}
+
+section .order img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+section .order .pkind {
+  color: #5E5E5E;
+}
+
+section .order .pname {
+  color: #0A0A0A;
+}
+
+section .order .price {
+  color: #171717;
+}
+
+section .order .m_hr {
+  border-bottom-color: #000000 !important;
+}
+
+section .order .c_hr {
+  border-bottom-color: #5B5B5B !important;
+}
+
+section .order .price {
+  font-weight: 700;
+}
+
+section .order .orderListprice {
+    width: 250px;
+    text-align: right;
+}
+
+section .order .form-check {
+	width: 150px;
+}
